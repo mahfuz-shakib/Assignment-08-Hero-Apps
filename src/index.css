@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.text-gradient{
+ @apply bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent
+}
+
+.btn-bg{
+     @apply bg-linear-to-br from-[#632EE3] to-[#9F62F2]
+
+}
+
+a.active{
+    border-bottom: 2px solid blueviolet;
+    @apply bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent
+}
