@@ -31,7 +31,7 @@ const AppDetails = () => {
   return (
     <div className="bg-gray-100 ">
       <div className="max-w-7xl mx-auto px-3 py-12 space-y-4">
-        <div className="flex flex-col sm:flex-row flex-start gap-5 sm:gap-6  items-center pb-4 border-b border-b-gray-300">
+        <div className="flex flex-col sm:flex-row flex-start gap-5 sm:gap-10  items-center pb-4 border-b border-b-gray-300">
           <img className="size-64 rounded" src={image} alt={title} />
           <div className="sm:h-64 sm:flex flex-col justify-between w-full">
             <div className="space-y-3">

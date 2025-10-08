@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import downloadIcon from "../assets/icon-downloads.png";
 import starIcon from "../assets/icon-ratings.png";
 import { toast } from "react-toastify";
-import { getFromLocalStorage, removeFromLocalStorage, saveToLocalStorage } from "../Utils/localstorage";
+import { getFromLocalStorage, removeFromLocalStorage } from "../Utils/localstorage";
+import { downloadConvert } from "../Utils/downloadConvert";
 import useApps from "../Hooks/useApps";
+
 const My_Installation = () => {
   const [savedApp, setSavedApp] = useState(() => getFromLocalStorage());
   const [sortType, setSortType] = useState("none");
@@ -11,20 +13,21 @@ const My_Installation = () => {
   const installedApp = apps.filter((app) => savedApp.includes(app.id));
 
   const sortedApps = (() => {
-    if (sortType === "size-asc") {
-      return [...installedApp].sort((a, b) => parseInt(a.size.slice(0, -3)) - parseInt(b.size.slice(0, -3)));
-    } else if (sortType === "size-desc") {
-      return [...installedApp].sort((a, b) => parseInt(b.size.slice(0, -3)) - parseInt(a.size.slice(0, -3)));
+    if (sortType === "count-asc") {
+      return [...installedApp].sort((a, b) => downloadConvert(a.downloads) - downloadConvert(b.downloads));
+    } else if (sortType === "count-desc") {
+      return [...installedApp].sort((a, b) => downloadConvert(b.downloads) - downloadConvert(a.downloads));
     } else {
       return installedApp;
     }
   })();
+
   const handleUninstall = (uninstalledApp) => {
     removeFromLocalStorage(uninstalledApp.id);
-    setSavedApp(prev=>prev.filter(id=> id!==uninstalledApp.id));
-
+    setSavedApp((prev) => prev.filter((id) => id !== uninstalledApp.id));
     toast(`${uninstalledApp.title} uninstallation done!`);
   };
+
   return (
     <div className="max-w-7xl mx-auto px-3 my-12 min-h-96">
       <h1 className="text-4xl font-semibold text-center">Your Installed Apps</h1>
@@ -33,15 +36,15 @@ const My_Installation = () => {
       </p>
       <div className="flex flex-col sm:flex-row space-y-4 sm:justify-between items-center">
         <h1 className="text-2xl font-bold">({sortedApps.length}) Apps Found</h1>
-        <label htmlFor="" className="form-control w-full max-w-xs">
+        <label htmlFor="" className="form-control w-48">
           <select
             className="select select-bordered h-10"
             value={sortType}
             onChange={(e) => setSortType(e.target.value)}
           >
-            <option value="none">Sort By Size</option>
-            <option value="size-asc">Low -&gt; High</option>
-            <option value="size-desc">High -&gt; Low</option>
+            <option value="none">Sort By Downloads</option>
+            <option value="count-asc">Low -&gt; High</option>
+            <option value="count-desc">High -&gt; Low</option>
           </select>
         </label>
       </div>
