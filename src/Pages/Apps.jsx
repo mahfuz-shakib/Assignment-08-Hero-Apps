@@ -1,17 +1,32 @@
 import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "../Components/AppCard";
+import Loading from "../Components/Loading";
+import NoAppsAvailable from "../Components/NoAppsAvailable";
 
 const Apps = () => {
-  const { apps, loading, error } = useApps();
-  const [search, setsearch]=useState('')
-  const handleSearch=e=>{
-    const value = e.target.value.toLowerCase().trim().replaceAll('  ','');
-    setsearch(value)
+  const { apps, loading, setLoading } = useApps();
+  const [search, setSearch] = useState("");
+  const handleSearch = (e) => {
+    setLoading(true);
+    const value = e.target.value.toLowerCase().trim().replaceAll("  ", "");
+    setSearch(value);
+  };
+  let searchedApps = [];
+  if (search) {
+    searchedApps = apps.filter((app) => app.title.toLowerCase().includes(search));
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  } else {
+    searchedApps = apps;
+    setTimeout(() => {
+      setLoading(false);
+    }, 300);
   }
-  const searchedApps = search ? apps.filter(app=>app.title.toLowerCase().includes(search)) :apps;
+
   return (
-    <div className="max-w-7xl mx-auto px-3 my-12">
+    <div className="max-w-7xl mx-auto px-3 my-12 min-h-96">
       <h1 className="text-4xl font-semibold text-center">Our All Applications</h1>
       <p className="text-gray-500 text-center mt-5 mb-10">
         Explore All Apps on the Market developed by us.<br className="sm:hidden"></br> We code for Millions
@@ -25,14 +40,20 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input type="search" onChange={handleSearch} value={search}  required placeholder="Search App" />
+          <input type="search" onChange={handleSearch} value={search} required placeholder="Search App" />
         </label>
       </div>
-      <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {searchedApps?.map((app) => (
-          <AppCard key={app.id} app={app}></AppCard>
-        ))}
-      </div>
+      {loading ? (
+        <Loading></Loading>
+      ) : !searchedApps.length ? (
+        <NoAppsAvailable></NoAppsAvailable>
+      ) : (
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          {searchedApps?.map((app) => (
+            <AppCard key={app.id} app={app}></AppCard>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

@@ -1,9 +1,11 @@
 export const getFromLocalStorage = () => {
-  const savedAPPs = localStorage.getItem("installedApps");
-  if (savedAPPs) {
-    return JSON.parse(savedAPPs);
+  try {
+    const savedAPPs = localStorage.getItem("installedApps");
+    return savedAPPs ? JSON.parse(savedAPPs) : [];
+  } catch (error) {
+    console.log(error);
+    return [];
   }
-  return [];
 };
 
 export const addToLocalStorage = (id) => {

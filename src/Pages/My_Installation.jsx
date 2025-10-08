@@ -5,11 +5,14 @@ import { toast } from "react-toastify";
 import { getFromLocalStorage, removeFromLocalStorage } from "../Utils/localstorage";
 import { downloadConvert } from "../Utils/downloadConvert";
 import useApps from "../Hooks/useApps";
+import { Link } from "react-router";
+import NoAppsAvailable from "../Components/NoAppsAvailable";
+import Loading from "../Components/Loading";
 
 const My_Installation = () => {
   const [savedApp, setSavedApp] = useState(() => getFromLocalStorage());
   const [sortType, setSortType] = useState("none");
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
   const installedApp = apps.filter((app) => savedApp.includes(app.id));
 
   const sortedApps = (() => {
@@ -50,42 +53,48 @@ const My_Installation = () => {
       </div>
 
       <div className="mt-6 space-y-4">
-        {sortedApps.map((app) => (
-          <div
-            key={app.id}
-            className="flex justify-between items-center g-white p-4 rounded-lg border border-gray-300 shadow hover:bg-[#f6f9f2]"
-          >
-            <div className="flex items-cente gap-4">
-              <img
-                className="size-15 mx-auto rounded-lg object-cover border-gray-100 "
-                src={app.image}
-                alt={app.title}
-              />
-              <div className="space-y-2.5">
-                <h1 className="text-xl font-bold">{app.title}</h1>
-                <div className="flex justify-between gap-6">
-                  <div className=" text-green-400 flex items-center gap-1.5">
-                    <img className="size-4" src={downloadIcon} alt="downloadIcon" />
-                    <span className="">{app.downloads}</span>
-                  </div>
-                  <div className="  text-orange-400 flex items-center gap-1.5">
-                    <img className="size-4" src={starIcon} alt="starIcon" />
-                    <span className="">{app.ratingAvg}</span>
-                  </div>
-                  <div className=" text-gray-500 flex items-center gap-1.5">
-                    <span className="">{app.size}</span>
+        {loading ? (
+          <Loading></Loading>
+        ) : !sortedApps.length ? (
+          <NoAppsAvailable></NoAppsAvailable>
+        ) : (
+          sortedApps.map((app) => (
+            <div
+              key={app.id}
+              className="flex justify-between items-center g-white p-4 rounded-lg border border-gray-300 shadow hover:bg-[#f6f9f2]"
+            >
+              <div className="flex items-cente gap-4">
+                <img
+                  className="size-15 mx-auto rounded-lg object-cover border-gray-100 "
+                  src={app.image}
+                  alt={app.title}
+                />
+                <div className="space-y-2.5">
+                  <h1 className="text-xl font-bold">{app.title}</h1>
+                  <div className="flex justify-between gap-6">
+                    <div className=" text-green-400 flex items-center gap-1.5">
+                      <img className="size-4" src={downloadIcon} alt="downloadIcon" />
+                      <span className="">{app.downloads}</span>
+                    </div>
+                    <div className="  text-orange-400 flex items-center gap-1.5">
+                      <img className="size-4" src={starIcon} alt="starIcon" />
+                      <span className="">{app.ratingAvg}</span>
+                    </div>
+                    <div className=" text-gray-500 flex items-center gap-1.5">
+                      <span className="">{app.size}</span>
+                    </div>
                   </div>
                 </div>
               </div>
+              <button
+                onClick={() => handleUninstall(app)}
+                className="btn w-fit bg-green-500 hover:bg-green-600 hover:scale-102 text-white"
+              >
+                Uninstall
+              </button>
             </div>
-            <button
-              onClick={() => handleUninstall(app)}
-              className="btn w-fit bg-green-500 hover:bg-green-600 hover:scale-102 text-white"
-            >
-              Uninstall
-            </button>
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </div>
   );

@@ -1,16 +1,23 @@
 import React from "react";
-import { Link, NavLink } from "react-router";
+import { Link, NavLink, useLocation } from "react-router";
 import Container from "./Container";
 import logo from "..//assets/logo.png";
 import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
+  const path = useLocation().pathname;
   const menus = ["Home", "Apps", "My Installation"];
   const links = menus.map((menu, index) => (
     <li key={index}>
-      <NavLink to={`/${menu.toLowerCase().replaceAll(" ", "")}`}>{menu}</NavLink>
+      <NavLink
+        to={`/${menu.toLowerCase().replaceAll(" ", "")}`}
+        className={menu === "Home" && path === "/" ? "default-active" : ""}
+      >
+        {menu}
+      </NavLink>
     </li>
   ));
+
   return (
     <div className="bg-base-100 shadow-sm">
       <Container>
@@ -36,7 +43,7 @@ const Navbar = () => {
                 {links}
               </ul>
             </div>
-            <Link to="/home">
+            <Link to="/">
               <div className="btn border-none bg-white shadow-none hover:scale-102 hover:cursor-pointer">
                 <img className="size-8 hover:cursor-pointer" src={logo} alt="logo" />
                 <button className="text-2xl  text-gradient hover:cursor-pointer">HERO.IO</button>

@@ -12,7 +12,7 @@ const useApps = () => {
         .catch(error=>setError(error))
         .finally(()=>setLoading(false));
     },[])
-    return {apps, loading, error}
+    return {apps, loading, error,setLoading}
 };
 
 export default useApps;

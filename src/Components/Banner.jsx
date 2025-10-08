@@ -22,14 +22,14 @@ const Banner = () => {
         </p>
         <div className="w-fit mx-auto sm:space-x-4 space-y-3 sm:space-y-0 mt-6">
           <Link to="https://play.google.com/store/games?hl=en&pli=1" target="blank">
-            <button className="btn w-36 ">
+            <button className="btn outline outline-sky-300 bg-white hover:scale-102  w-36 ">
               <img className="size-5" src={playStore} alt="playStore icon" />
               <span>Google Play</span>
             </button>{" "}
             <br className="sm:hidden"></br>
           </Link>
           <Link to="https://www.apple.com/app-store/" target="blank">
-            <button className="btn w-36">
+            <button className="btn outline outline-sky-300 bg-white hover:scale-102  w-36">
               <img className="size-5" src={appStore} alt="appStore icon" />
               <span>App Store</span>
             </button>
