@@ -17,12 +17,12 @@ const Apps = () => {
     searchedApps = apps.filter((app) => app.title.toLowerCase().includes(search));
     setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 1000);
   } else {
     searchedApps = apps;
     setTimeout(() => {
       setLoading(false);
-    }, 300);
+    }, 1000);
   }
 
   return (
