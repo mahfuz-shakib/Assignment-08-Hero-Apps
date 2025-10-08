@@ -1,15 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import Banner from "../Components/Banner";
 import Apps from "./Apps";
 import AppCard from "../Components/AppCard";
 import useApps from "../Hooks/useApps";
 import { Link } from "react-router";
-import { AppContext } from "../Context/Context";
 
 const Home = () => {
   const { apps, loading, error } = useApps();
-    const { installedApp, setInstalledApp } = useContext(AppContext);
-  console.log(installedApp);
   const homeApps = apps.slice(0, 8);
   return (
     <div>
@@ -18,7 +15,7 @@ const Home = () => {
         <h1 className="text-4xl font-semibold text-center">Trending Apps</h1>
         <p className="text-gray-500 text-center mb-10">Explore All Trending Apps on the Market developed by us</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          {homeApps.map((app) => (
+          {homeApps?.map((app) => (
             <AppCard key={app.id} app={app}></AppCard>
           ))}
         </div>

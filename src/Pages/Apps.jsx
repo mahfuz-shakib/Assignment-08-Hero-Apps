@@ -4,7 +4,7 @@ import AppCard from "../Components/AppCard";
 
 const Apps = () => {
   const { apps, loading, error } = useApps();
-  const [search, setsearch]=useState(null)
+  const [search, setsearch]=useState('')
   const handleSearch=e=>{
     const value = e.target.value.toLowerCase().trim().replaceAll('  ','');
     setsearch(value)
@@ -29,7 +29,7 @@ const Apps = () => {
         </label>
       </div>
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {searchedApps.map((app) => (
+        {searchedApps?.map((app) => (
           <AppCard key={app.id} app={app}></AppCard>
         ))}
       </div>

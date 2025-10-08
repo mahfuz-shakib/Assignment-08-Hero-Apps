@@ -1,25 +1,31 @@
-import React, { useContext } from "react";
+import React, {  useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
 import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
-import { AppContext } from "../Context/Context";
 import { toast } from "react-toastify";
+import { addToLocalStorage, getFromLocalStorage } from "../Utils/localstorage";
 
 const AppDetails = () => {
-  const { installedApp, setInstalledApp } = useContext(AppContext);
-  const { id } = useParams();
+  const [ installedApp ] = useState(()=>getFromLocalStorage());
   const { apps, loading } = useApps();
-  const clickedApp = apps && apps.find((app) => app.id === Number(id));
+  const { id } = useParams();
+  const appId = Number(id)
+  const [install, setInstall]=useState(()=>installedApp.some(id=>id===appId));
+
+  const clickedApp = apps && apps.find((app) => app.id === appId);
+
   if (loading) return <p>Loading....</p>;
   const { title, image, companyName, description, downloads, ratingAvg, ratings, reviews, size } = clickedApp;
+  
   const chartData = [...ratings];
   chartData.reverse();
 
   const handleInstall = (newApp) => {
-    setInstalledApp([...installedApp, newApp]);
+    addToLocalStorage(newApp.id);
+    setInstall(true);
     toast(`${newApp.title} installed succesfully!`)
   };
   return (
@@ -52,10 +58,11 @@ const AppDetails = () => {
               </div>
             </div>
             <button
-              onClick={() => handleInstall(clickedApp)}
-              className="btn w-fit bg-green-500 hover:bg-green-600 hover:scale-102 text-white"
+              onClick={() => handleInstall(clickedApp)} disabled={install}
+              className={`btn w-fit hover:scale-102 overflow-hidden bg-green-500 text-white ${install? "!bg-green-700":'bg-gradient-to-r from-green-600 via-green-500 to-green-600 animate-gradient-x'}`}
             >
-              Install Now ({size})
+                {install?'Installed':`Install Now ${size}`}
+                
             </button>
           </div>
         </div>
