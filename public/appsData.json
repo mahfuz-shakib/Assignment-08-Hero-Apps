@@ -1,6 +1,6 @@
 [
   {
-    "image": "../src/assets/whatsappImg.7f3687b9-847d-4f86-bb5c-c73259e2b38e",
+    "image": "/assets/whatsappImg.7f3687b9-847d-4f86-bb5c-c73259e2b38e",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "id": 1,
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "image": "../src/assets/shazamImg.png",
+    "image": "/assets/shazamImg.png",
     "title": "Shazam",
     "companyName": "Apple Inc.",
     "id": 2,
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "image": "../src/assets/pinteresimg.jpg",
+    "image": "/assets/pinteresimg.jpg",
     "title": "Pinterest",
     "companyName": "Pinterest",
     "id": 3,
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "image": "../src/assets/googlePay.png",
+    "image": "/assets/googlePay.png",
     "title": "Google Pay",
     "companyName": "Google LLC",
     "id": 4,
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "image": "../src/assets/instagram.svg",
+    "image": "/assets/instagram.svg",
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 5,
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "image": "../src/assets/slack.png",
+    "image": "/assets/slack.png",
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 6,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "../src/assets/zoomCar.jpg",
+    "image": "/assets/zoomCar.jpg",
     "title": "Zoomcar",
     "companyName": "Zoomcar India Pvt. Ltd.",
     "id": 7,
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "image": "../src/assets/uber-eats.jpg",
+    "image": "/assets/uber-eats.jpg",
     "title": "Uber Eats",
     "companyName": "Uber Technologies, Inc.",
     "id": 8,
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "image": "../src/assets/roblox.png",
+    "image": "/assets/roblox.png",
     "title": "Roblox",
     "companyName": "Roblox Corporation",
     "id": 9,
@@ -297,7 +297,7 @@
     ]
   },
   {
-    "image": "../src/assets/messenger.3a37ac56-b1f7-4474-8aae-665d36518812",
+    "image": "/assets/messenger.3a37ac56-b1f7-4474-8aae-665d36518812",
     "title": "Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 10,
@@ -330,7 +330,7 @@
     ]
   },
   {
-    "image": "../src/assets/mint.webp",
+    "image": "/assets/mint.webp",
     "title": "Mint",
     "companyName": "Intuit Inc.",
     "id": 11,
@@ -363,7 +363,7 @@
     ]
   },
   {
-    "image": "../src/assets/duolingo.png",
+    "image": "/assets/duolingo.png",
     "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 12,
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "../src/assets/netflix.jpeg",
+    "image": "/assets/netflix.jpeg",
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 13,
@@ -429,7 +429,7 @@
     ]
   },
   {
-    "image": "../src/assets/youtube.png",
+    "image": "/assets/youtube.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 14,
@@ -462,7 +462,7 @@
     ]
   },
   {
-    "image": "../src/assets/telegram.png",
+    "image": "/assets/telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 15,
@@ -495,7 +495,7 @@
     ]
   },
   {
-    "image": "../src/assets/capcut.png",
+    "image": "/assets/capcut.png",
     "title": "CapCut",
     "companyName": "Bytedance Pte. Ltd.",
     "id": 16,
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "image": "../src/assets/googlephotos.png",
+    "image": "/assets/googlephotos.png",
     "title": "Google Photos",
     "companyName": "Google LLC",
     "id": 17,
@@ -561,7 +561,7 @@
     ]
   },
   {
-    "image": "../src/assets/zoom.jpeg",
+    "image": "/assets/zoom.jpeg",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 18,
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "image": "../src/assets/primeVideo.png",
+    "image": "/assets/primeVideo.png",
     "title": "Amazon Prime Video",
     "companyName": "Amazon Mobile LLC",
     "id": 19,
@@ -627,7 +627,7 @@
     ]
   },
   {
-    "image": "../src/assets/tiktok.png",
+    "image": "/assets/tiktok.png",
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 20,
@@ -660,7 +660,7 @@
     ]
   },
   {
-    "image": "../src/assets/facebook.png",
+    "image": "/assets/facebook.png",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 21,
@@ -693,7 +693,7 @@
     ]
   },
   {
-    "image": "../src/assets/uber.png",
+    "image": "/assets/uber.png",
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 22,
@@ -726,7 +726,7 @@
     ]
   },
   {
-    "image": "../src/assets/discord.png",
+    "image": "/assets/discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 23,
@@ -759,7 +759,7 @@
     ]
   },
   {
-    "image": "../src/assets/airbnb.jpeg",
+    "image": "/assets/airbnb.jpeg",
     "title": "Airbnb",
     "companyName": "Airbnb, Inc.",
     "id": 24,
@@ -792,7 +792,7 @@
     ]
   },
   {
-    "image": "../src/assets/evernote.png",
+    "image": "/assets/evernote.png",
     "title": "Evernote",
     "companyName": "Evernote Corporation",
     "id": 25,
@@ -825,7 +825,7 @@
     ]
   },
   {
-    "image": "../src/assets/headspce.png",
+    "image": "/assets/headspce.png",
     "title": "Headspace",
     "companyName": "Headspace, Inc.",
     "id": 26,
@@ -858,7 +858,7 @@
     ]
   },
   {
-    "image": "../src/assets/googlemap.png",
+    "image": "/assets/googlemap.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 27,
@@ -891,7 +891,7 @@
     ]
   },
   {
-    "image": "../src/assets/audible.jpeg",
+    "image": "/assets/audible.jpeg",
     "title": "Audible",
     "companyName": "Audible, Inc.",
     "id": 28,
@@ -924,7 +924,7 @@
     ]
   },
   {
-    "image": "../src/assets/angry-bird.jpeg",
+    "image": "/assets/angry-bird.jpeg",
     "title": "Angry Birds 2",
     "companyName": "Rovio Entertainment",
     "id": 29,
@@ -957,7 +957,7 @@
     ]
   },
   {
-    "image": "../src/assets/fitbit.png",
+    "image": "/assets/fitbit.png",
     "title": "Fitbit",
     "companyName": "Fitbit, Inc.",
     "id": 30,
