@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   const menus = ["Home", "Apps", "My Installation"];
   const links = menus.map((menu, index) => (
-    <li key={index} className="font-semibold">
+    <li key={index}>
       <NavLink to={`/${menu.toLowerCase().replaceAll(" ", "")}`}>{menu}</NavLink>
     </li>
   ));
@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link to="/home">
               <div className="btn border-none bg-white shadow-none hover:scale-102 hover:cursor-pointer">
                 <img className="size-8 hover:cursor-pointer" src={logo} alt="logo" />
-                <button className="text-2xl font-semibold text-gradient hover:cursor-pointer">HERO.IO</button>
+                <button className="text-2xl  text-gradient hover:cursor-pointer">HERO.IO</button>
               </div>
             </Link>
           </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1 space-x-2 md:text-base">{links}</ul>
           </div>
           <div className="navbar-end">
-            <Link to="https://github.com/mahfuz-shakib">
+            <Link to="https://github.com/mahfuz-shakib" target="blank">
               <button className="btn btn-bg text-white md:text-base hover:scale-102 hover:bg-violet-600">
                 <span className="">
                   <FaGithub />

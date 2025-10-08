@@ -1,19 +1,23 @@
-import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import React, { useState } from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { Outlet } from "react-router";
-import Container from '../Components/Container';
-
+import { AppContext } from "../Context/Context";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Root = () => {
-    return (
-        <div>
-            <Navbar></Navbar>
-            <Container>
-                <Outlet></Outlet>
-            </Container>
-            <Footer></Footer>
-        </div>
-    );
+  const [installedApp, setInstalledApp]=useState([])
+  console.log(installedApp);
+  return (
+    <div>
+      <ToastContainer></ToastContainer>
+      <Navbar></Navbar>
+      <AppContext.Provider value={{installedApp,setInstalledApp}}>
+        <Outlet></Outlet>
+      </AppContext.Provider>
+      <Footer></Footer>
+    </div>
+  );
 };
 
 export default Root;

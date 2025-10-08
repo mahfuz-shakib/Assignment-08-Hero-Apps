@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <div className="mt-10">
+    <div>
       <div className="bg-[#06091A]">
         <Container>
           <footer className="footer max-w-7xl mx-auto flex flex-col gap-4 sm:flex-row sm:justify-between text-neutral-content items-center px-3 py-8">
