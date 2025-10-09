@@ -59,3 +59,9 @@ body {
   animation: spin 1.2s linear infinite; 
   vertical-align: middle;
 }
+
+
+.footer-ul
+{
+  @apply text-gray-300  flex justify-center text-sm sm:text-base sm:justify-start flex-wrap items-center gap-2 divide-x divide-gray-600 sm:block sm:space-y-2 sm:divide-x-0
+}
