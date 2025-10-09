@@ -1,16 +1,119 @@
-# React + Vite
+<div align="center">
+  <h1>
+    <a href="./">HERO Apps (HERO.IO)</a>
+  </h1>
+  <p>Discover, visualize, and manage your favorite apps.</p>
+  <p>
+    <a href="./">Live</a>
+    ·
+    <a href="#getting-started">Getting Started</a>
+    ·
+    <a href="#features">Features</a>
+  </p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-ready React application for discovering mobile applications, viewing rich details, visualizing ratings, and managing local "installations". The app is optimized for speed and DX using Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse all apps with total count and responsive grid
+- Client-side search with instant filtering
+- App detail page with downloads, average ratings, total reviews, and a ratings bar chart
+- Local installation management persisted via `localStorage`
+- Toast notifications for install/uninstall feedback
+- Error pages and empty-state handling
 
-## React Compiler
+## Tech Stack
+- React 19
+- Vite 7 (Dev server and production build)
+- React Router 7 (Routing)
+- Tailwind CSS 4 + DaisyUI (Styling & components)
+- Axios (Data fetching)
+- Recharts (Data visualization)
+- React Toastify (Notifications)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Architecture Overview
+- Entry: `src/main.jsx` mounts the app and injects global styles.
+- Routing: `src/App.jsx` configures routes with a `Root` layout (`Navbar`, `Outlet`, `Footer`).
+- Data: `src/Hooks/useApps.js` fetches from `/appsData.json` (served from `public/`) and exposes `{ apps, loading, error }`.
+- Pages: `Home`, `Apps`, `AppDetails`, `My_Installation`, and error pages render UI using the shared hook and components.
+- Persistence: `src/Utils/localstorage.js` stores installed app IDs as a JSON array under the `installedApps` key in `localStorage`.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prerequisites:
+- Node.js 18+ (LTS recommended)
+
+Install dependencies:
+```bash
+npm install
+```
+
+Start development server:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview production build:
+```bash
+npm run preview
+```
+
+## Scripts
+- `dev`: Start Vite dev server
+- `build`: Create production build
+- `preview`: Preview the production build locally
+- `lint`: Run ESLint
+
+## Project Structure
+```text
+src/
+  Components/         # Reusable UI components (Navbar, Footer, AppCard, etc.)
+  Hooks/              # Custom hooks (useApps)
+  Layout/             # Root layout with shared chrome
+  Pages/              # Route pages (Home, Apps, AppDetails, My_Installation, Error)
+  Utils/              # Utilities (localStorage helpers, download conversion)
+  assets/             # Local images/icons used by components
+  App.jsx             # Router configuration
+  main.jsx            # App bootstrap
+  index.css, App.css  # Global styles & Tailwind setup
+public/
+  appsData.json       # App catalog data served by Vite at runtime
+```
+
+## Data & Persistence
+- Source: `public/appsData.json` is fetched at `/appsData.json` by `useApps`.
+- Persistence: Installed app IDs are saved in `localStorage` under `installedApps`.
+- Utilities: `getFromLocalStorage`, `addToLocalStorage`, `removeFromLocalStorage`, `saveToLocalStorage` encapsulate storage logic.
+
+## Styling
+- Tailwind CSS v4 with DaisyUI plugin for component primitives.
+- Custom utilities in `src/index.css` (e.g., gradient text, animations).
+
+## Accessibility
+- Decorative images use empty `alt` and/or `aria-hidden` where appropriate.
+- Interactive controls use semantic HTML elements and visible focusable buttons.
+- Consider adding `aria-label` to the search input for improved screen reader clarity.
+
+## Performance Notes
+- Vite-based HMR for fast local development.
+- Static assets placed under `public/` are served efficiently by Vite.
+- Client-side filtering; for large datasets, consider server-side search or pagination.
+
+## Roadmap
+- Debounced search with separate local loading state.
+- Guard against duplicate installations in `localStorage`.
+- Improve external links to use `target="_blank"` with `rel="noopener noreferrer"`.
+- Tests for hooks and utilities.
+---
+---
+#### Author
+- Mahfuz Shakib
+- GitHub: [mahfuz-shakib](https://github.com/mahfuz-shakib)
+
