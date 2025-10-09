@@ -1,13 +1,13 @@
 <div align="center">
   <h1>
-    <a href="./">HERO Apps (HERO.IO)</a>
+    <a href="https://hero-apps-301.netlify.app/">HERO Apps (HERO.IO)</a>
   </h1>
   <p>Discover, visualize, and manage your favorite apps.</p>
-  <p>
-    <a href="./">Live</a>
-    ·
+  <p style="display:flex; justify-content:center; gap:8px">
+    <a href="https://hero-apps-301.netlify.app/">Live Link</a>
+    |
     <a href="#getting-started">Getting Started</a>
-    ·
+    |
     <a href="#features">Features</a>
   </p>
 </div>
