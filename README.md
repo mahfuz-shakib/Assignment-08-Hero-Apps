@@ -3,7 +3,7 @@
     <a href="https://hero-apps-301.netlify.app/">HERO Apps (HERO.IO)</a>
   </h1>
   <p>Discover, visualize, and manage your favorite apps.</p>
-  <p style="display:flex; justify-content:center; gap:8px;">
+  <p style="display:flex; justify-content:center; gap:16px;">
     <a href="https://hero-apps-301.netlify.app/">Netlify Live</a>
     |
     <a href="https://hero-apps-301.pages.dev/">CloudFlare Live</a>
