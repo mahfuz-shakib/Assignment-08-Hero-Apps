@@ -4,32 +4,17 @@
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "id": 1,
-    "description": "WhatsApp Messenger stands as the world's most popular cross-platform messaging application, offering users a simple, reliable, and secure way to communicate globally. It leverages end-to-end encryption by default, ensuring that only you and the person you're communicating with can read your messages and no one in between, not even WhatsApp. Beyond basic **text messaging**, the app facilitates high-quality **voice and video calls** for both individuals and groups. Users can instantly share **photos, videos, documents, and locations**. Key features include **Status updates**, which are short, expiring clips of text, photos, or videos, and **disappearing messages** to enhance privacy control. The platform is designed for seamless, multi-device usage via **WhatsApp Web and Desktop** clients. It supports cloud storage backup, making sure conversations and media are always accessible and protected, and is continually updated with business-focused tools and community-building features.",
+    "description": "WhatsApp Messenger is the world’s most widely used cross-platform messaging app, providing a simple, reliable, and secure way to connect with anyone, anywhere. It uses end-to-end encryption by default, ensuring that only you and your contact can read or listen to your conversations. With its streamlined interface, users can chat instantly, make high-quality voice and video calls, and create group conversations effortlessly.\n\nBeyond messaging, WhatsApp enables users to share photos, videos, documents, and even live locations within seconds. The app also supports features such as Status updates, where users post short-lived content, and disappearing messages that enhance privacy. These tools make it easy to express yourself while keeping control over what you share.\n\nWith multi-device support through WhatsApp Web and Desktop, users can stay connected across platforms. The app also offers cloud backup, business tools, and community-based features, constantly evolving to make global communication faster, safer, and more personal.",
     "size": "44 MB",
     "reviews": "180M",
     "ratingAvg": 4.7,
     "downloads": "5B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 3000000
-      },
-      {
-        "name": "2 star",
-        "count": 2500000
-      },
-      {
-        "name": "3 star",
-        "count": 7000000
-      },
-      {
-        "name": "4 star",
-        "count": 19000000
-      },
-      {
-        "name": "5 star",
-        "count": 149000000
-      }
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 19000000 },
+      { "name": "5 star", "count": 149000000 }
     ]
   },
   {
@@ -37,32 +22,17 @@
     "title": "Shazam",
     "companyName": "Apple Inc.",
     "id": 2,
-    "description": "Shazam is the fastest and easiest way to identify music playing around you. This pioneering music discovery application can instantly recognize nearly any song, TV show, or advertisement in a matter of seconds. By simply tapping the signature **Shazam button**, users can capture and identify a track, even when offline. Once identified, the app provides the song's **lyrics**, information on the **artist**, and a quick link to play the full track on streaming platforms like **Apple Music** and **Spotify**. It actively keeps track of your musical history in your personal library and offers personalized recommendations based on your discoveries. Features like **Auto Shazam** allow the app to continuously listen and identify music passively, ensuring you never miss a track, making it an essential tool for music enthusiasts and casual listeners alike.",
+    "description": "Shazam is the fastest and easiest way to identify any music playing around you. With a single tap on the signature Shazam button, the app can recognize songs, TV shows, or advertisements within seconds, even when you’re offline. It’s a must-have tool for anyone curious about discovering what’s playing in their environment.\n\nOnce a track is identified, Shazam provides lyrics, artist details, and direct links to stream the full song on Apple Music or Spotify. It also keeps a history of all your identified songs, allowing you to revisit and organize your discoveries. Personalized recommendations further help you explore new music based on your unique taste.\n\nFeatures like Auto Shazam can continuously listen in the background, ensuring you never miss a tune. With its seamless performance and intelligent integration with major streaming platforms, Shazam remains an indispensable app for music lovers worldwide.",
     "size": "46 MB",
     "reviews": "5.2M",
     "ratingAvg": 4.8,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 100000
-      },
-      {
-        "name": "2 star",
-        "count": 90000
-      },
-      {
-        "name": "3 star",
-        "count": 200000
-      },
-      {
-        "name": "4 star",
-        "count": 700000
-      },
-      {
-        "name": "5 star",
-        "count": 4100000
-      }
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 4100000 }
     ]
   },
   {
@@ -70,32 +40,17 @@
     "title": "Pinterest",
     "companyName": "Pinterest",
     "id": 3,
-    "description": "Pinterest is a **visual discovery engine** where millions of people go to find inspiration and ideas for their lives. It functions as a global catalog of ideas, not just a social network, allowing users to search for images, GIFs, and videos, which are referred to as 'Pins,' across a vast array of topics, including recipes, fashion, travel, home decor, and DIY projects. Users can **create boards** to categorize and organize their saved Pins, essentially bookmarking and curating their favorite ideas. The app uses advanced **AI-powered visual search** and personalized recommendations to connect users with trending and relevant content. It supports direct **shopping links**, making it a seamless transition from inspiration to purchase. Collaboration is easy with **group boards**, and the platform is a significant tool for businesses and creators to showcase their products and content to a massive, engaged audience.",
+    "description": "Pinterest is a visual discovery engine that inspires millions of people worldwide to explore and organize ideas for every aspect of life. It serves as a global catalog of creativity, offering users access to images, videos, and GIFs known as 'Pins' across diverse topics such as fashion, food, home decor, and travel.\n\nUsers can create personalized boards to categorize their saved Pins, turning inspiration into organized collections. Pinterest’s advanced visual search and AI-powered recommendations make it easy to discover trending and relevant content tailored to individual interests. Shopping links are often embedded, allowing users to move seamlessly from discovering ideas to purchasing products.\n\nCollaboration features like group boards enable teamwork on shared projects, while businesses and creators use the platform to reach large, engaged audiences. Pinterest blends creativity, practicality, and commerce into one powerful hub of inspiration.",
     "size": "101 MB",
     "reviews": "12.5M",
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 400000
-      },
-      {
-        "name": "2 star",
-        "count": 300000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 2500000
-      },
-      {
-        "name": "5 star",
-        "count": 8400000
-      }
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 8400000 }
     ]
   },
   {
@@ -103,32 +58,17 @@
     "title": "Google Pay",
     "companyName": "Google LLC",
     "id": 4,
-    "description": "Google Pay is a **secure, all-in-one digital wallet** that transforms how users manage money and make payments. It enables quick and secure contactless payments in stores using NFC technology, as well as seamless online transactions within apps and websites. Users can link their bank accounts, credit cards, and manage their funds directly from the app. A core feature is the ability to **send and receive money instantly** between friends and family with zero fees. Beyond payments, Google Pay can store digital versions of loyalty cards, gift cards, and event tickets, reducing physical wallet clutter. The app prioritizes **security** with strong encryption and fraud protection, while also offering **spending insights**, transaction history tracking, and often includes rewards or cashback programs to encourage smarter financial habits.",
+    "description": "Google Pay is a secure, all-in-one digital wallet designed to make payments fast, safe, and convenient. It enables users to make contactless transactions in stores, send and receive money instantly, and manage their finances seamlessly within one app. Whether online or offline, Google Pay brings simplicity and reliability to every transaction.\n\nUsers can link bank accounts, debit and credit cards, and store loyalty or gift cards digitally. The app’s intelligent design allows tracking of spending habits, viewing transaction history, and managing bills with ease. Strong encryption and built-in fraud protection ensure every payment remains private and protected.\n\nBeyond payments, Google Pay often offers cashback rewards, personalized insights, and promotions that encourage smarter money management. It’s a modern financial tool that eliminates the need for a physical wallet while keeping everything organized in one secure place.",
     "size": "66 MB",
     "reviews": "22M",
     "ratingAvg": 4.5,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 700000
-      },
-      {
-        "name": "2 star",
-        "count": 400000
-      },
-      {
-        "name": "3 star",
-        "count": 1200000
-      },
-      {
-        "name": "4 star",
-        "count": 3600000
-      },
-      {
-        "name": "5 star",
-        "count": 16200000
-      }
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3600000 },
+      { "name": "5 star", "count": 16200000 }
     ]
   },
   {
@@ -136,32 +76,17 @@
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 5,
-    "description": "Instagram is a premier **visual-centric social media platform** focused on image and short-form video sharing. It allows users to express their creativity, connect with friends, and follow a vast network of celebrities, brands, and creators. Users can share daily moments through **Instagram Stories** (photos and videos that disappear after 24 hours), create immersive **Reels** (short, entertaining videos set to music), and post high-quality photos and long-form videos to their main feed. The platform offers powerful **editing tools, filters, and effects** to enhance content before sharing. The **Explore page** is powered by an algorithm that suggests highly personalized content and new accounts to follow. Direct messaging (DMs) enables private conversations, while features for businesses and creators provide analytics and tools for product promotion and audience engagement. Instagram continually innovates to remain a key player in global visual communication and trends.",
+    "description": "Instagram is a leading social media platform built around photo and video sharing. It allows users to creatively express themselves, connect with friends, and engage with a global network of creators, brands, and influencers. Whether posting polished photos or spontaneous stories, Instagram empowers users to share their lives visually.\n\nIts core features include Stories that disappear after 24 hours, short-form Reels with music and effects, and high-quality posts on the main feed. Advanced editing tools, filters, and creative effects help users enhance their content effortlessly. The Explore page curates personalized recommendations, helping users discover new content tailored to their interests.\n\nWith direct messaging, live video, and integrated shopping experiences, Instagram bridges personal expression and business engagement. It continues to evolve as a central hub for visual communication and digital culture worldwide.",
     "size": "59 MB",
     "reviews": "150M",
     "ratingAvg": 4.4,
     "downloads": "5B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 9000000
-      },
-      {
-        "name": "2 star",
-        "count": 6500000
-      },
-      {
-        "name": "3 star",
-        "count": 12000000
-      },
-      {
-        "name": "4 star",
-        "count": 32000000
-      },
-      {
-        "name": "5 star",
-        "count": 91000000
-      }
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 6500000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 32000000 },
+      { "name": "5 star", "count": 91000000 }
     ]
   },
   {
@@ -169,32 +94,17 @@
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 6,
-    "description": "Slack is a leading **professional communication and collaboration platform** designed to replace email for team workspaces. It organizes communication into **channels**, which can be created for specific projects, teams, or topics, ensuring conversations stay focused and transparent. Users can share direct messages, files, images, and links seamlessly. Slack boasts extensive integration capabilities, connecting with **over 2,000 external services** like Google Drive, Zoom, and Trello to centralize workflows. It supports one-on-one and group **voice and video calls**, offers powerful **search functionality** to easily find past messages or files, and includes advanced features like customizable notifications and workflow automation tools. By facilitating real-time messaging and quick decision-making, Slack significantly enhances team productivity and reduces reliance on traditional email.",
+    "description": "Slack is a professional communication and collaboration platform designed to streamline teamwork and reduce reliance on traditional email. It organizes discussions into channels for specific projects, teams, or topics, making it easy to find information and maintain focus.\n\nUsers can send messages, share files, and integrate with more than 2,000 third-party tools such as Google Drive, Zoom, and Trello to keep workflows connected. Built-in voice and video calls support both one-on-one and group meetings, while the robust search functionality ensures past conversations and documents are always accessible.\n\nWith customizable notifications, automation tools, and cross-device syncing, Slack enhances productivity and teamwork for organizations of all sizes. It’s a digital workspace where collaboration happens in real time and communication feels effortless.",
     "size": "104 MB",
     "reviews": "7.8M",
     "ratingAvg": 4.4,
     "downloads": "100M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 200000
-      },
-      {
-        "name": "2 star",
-        "count": 150000
-      },
-      {
-        "name": "3 star",
-        "count": 500000
-      },
-      {
-        "name": "4 star",
-        "count": 1600000
-      },
-      {
-        "name": "5 star",
-        "count": 5450000
-      }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 5450000 }
     ]
   },
   {
@@ -202,32 +112,17 @@
     "title": "Zoomcar",
     "companyName": "Zoomcar India Pvt. Ltd.",
     "id": 7,
-    "description": "Zoomcar is a prominent **self-drive car rental platform** that offers users the flexibility to book a wide range of cars for varying durations, from a few hours to several months. The app provides a seamless digital booking experience, allowing users to browse vehicles by type, location, and model, and complete the entire rental process online. A key feature is the ability to **unlock and start the car using the app**, eliminating the need for physical keys. The platform is known for its **transparent pricing**, which typically includes insurance coverage. It caters to diverse needs, from local commutes and weekend getaways to long-term usage. Zoomcar ensures a hassle-free experience with **24/7 customer support**, flexible fuel options, and an easy-to-use interface, making it a favorite for travelers and urban dwellers seeking convenient and independent transportation.",
+    "description": "Zoomcar is a leading self-drive car rental service that gives users the freedom to rent vehicles on demand without the need for a driver. From compact cars to SUVs, users can choose the perfect ride for short trips, long journeys, or extended rentals, all bookable directly through the app.\n\nThe platform’s digital experience allows for quick reservations, transparent pricing, and secure payments. With keyless access via the app, users can unlock and start cars without any physical handover. Zoomcar also includes insurance coverage and flexible fuel options, ensuring peace of mind throughout the journey.\n\nWhether for daily commuting or road trips, Zoomcar’s user-friendly interface, 24/7 customer support, and reliable vehicles make it a convenient and independent mobility solution for modern travelers.",
     "size": "88 MB",
     "reviews": "1.2M",
     "ratingAvg": 4.2,
     "downloads": "10M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 60000
-      },
-      {
-        "name": "2 star",
-        "count": 45000
-      },
-      {
-        "name": "3 star",
-        "count": 150000
-      },
-      {
-        "name": "4 star",
-        "count": 300000
-      },
-      {
-        "name": "5 star",
-        "count": 650000
-      }
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 650000 }
     ]
   },
   {
@@ -235,32 +130,17 @@
     "title": "Uber Eats",
     "companyName": "Uber Technologies, Inc.",
     "id": 8,
-    "description": "Uber Eats is a leading **food delivery platform** that connects users with a vast selection of local restaurants and major chains. The app allows users to browse menus, filter by cuisine, dietary needs, or price range, and customize their orders directly. A key element is the **real-time order tracking**, which provides updates from preparation to final delivery, often utilizing the same reliable mapping technology as the Uber ride service. It offers a variety of payment options and frequently runs **promotions and deals**. To ensure quality, the app includes delivery ratings and restaurant reviews. Features like **scheduled orders** and **no-contact delivery** enhance user convenience and safety. Uber Eats' wide network and integration with Uber's logistics infrastructure provide a smooth, fast, and reliable solution for users to enjoy restaurant meals at home.",
+    "description": "Uber Eats is a popular food delivery service that connects users to an extensive network of restaurants and cafes. It offers an easy way to browse menus, customize orders, and have meals delivered straight to your door. With intuitive filters and categories, users can quickly find food based on cuisine, price, or dietary preferences.\n\nThe app’s standout feature is real-time order tracking, which lets users follow every step—from restaurant preparation to delivery—using Uber’s advanced mapping system. Multiple payment options and frequent promotional deals make ordering flexible and rewarding.\n\nUber Eats also supports scheduled deliveries and contactless drop-offs for added convenience and safety. With its reliability, wide restaurant selection, and efficient delivery network, the app provides a seamless dining experience wherever you are.",
     "size": "78 MB",
     "reviews": "9.5M",
     "ratingAvg": 4.3,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 700000
-      },
-      {
-        "name": "2 star",
-        "count": 400000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 2100000
-      },
-      {
-        "name": "5 star",
-        "count": 5400000
-      }
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 5400000 }
     ]
   },
   {
@@ -268,32 +148,17 @@
     "title": "Roblox",
     "companyName": "Roblox Corporation",
     "id": 9,
-    "description": "Roblox is an immense, global **online game platform and creation system** where millions of users can create, explore, and interact within user-generated 3D worlds. It's not a single game, but a 'universe' of millions of diverse experiences, ranging from role-playing and adventure games to simulations and competitive racing, all created by its community of developers. The platform is especially popular with younger audiences, providing robust tools for players to **design their own games** using the free Roblox Studio software. It features a strong social component, allowing players to **chat, collaborate, and connect** with friends. Users can customize their avatars extensively and engage in transactions using the virtual currency, **Robux**. Roblox places a high priority on safety, offering parental controls and content moderation to ensure a secure environment for its social interactions and immersive experiences.",
+    "description": "Roblox is a massive online platform where users can play, create, and share immersive 3D worlds built by a global community. It hosts millions of experiences ranging from adventure and simulation to racing and role-playing, all developed by players using Roblox’s intuitive creation tools.\n\nWith Roblox Studio, users can design their own games, learn coding concepts, and bring creative ideas to life. The platform’s strong social features allow players to chat, collaborate, and play together across devices. Avatars can be customized with outfits and accessories, purchased using the in-game currency, Robux.\n\nRoblox prioritizes safety through parental controls, content moderation, and community guidelines. It’s not just a gaming platform—it’s a creative ecosystem that empowers imagination and social connection for users of all ages.",
     "size": "111 MB",
     "reviews": "9.7M",
     "ratingAvg": 4.5,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 300000
-      },
-      {
-        "name": "2 star",
-        "count": 250000
-      },
-      {
-        "name": "3 star",
-        "count": 700000
-      },
-      {
-        "name": "4 star",
-        "count": 1800000
-      },
-      {
-        "name": "5 star",
-        "count": 7150000
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 7150000 }
     ]
   },
   {
@@ -301,32 +166,17 @@
     "title": "Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 10,
-    "description": "Messenger is a dedicated instant messaging and communication application developed by Meta Platforms, primarily for users to connect with their Facebook friends and other contacts. It offers a rich set of features beyond simple texting, including high-quality **voice and video calls** for both one-on-one and group conversations. The app allows users to express themselves with a wide range of **stickers, emojis, and GIFs**, and supports the sharing of **photos, videos, and locations**. Recent updates have included options for **end-to-end encryption** in secret conversations to enhance privacy. Users can integrate with Facebook Stories, customize chat themes, send money securely in some regions, and interact directly with businesses for customer support. Messenger serves as a fast, feature-rich communication hub for billions globally.",
+    "description": "Messenger is Meta’s dedicated app for instant communication, connecting users to friends and family through text, voice, and video. It offers a rich, engaging chat experience with support for group conversations, reactions, and expressive tools like stickers, GIFs, and emojis.\n\nThe app enables high-quality audio and video calls, integrates seamlessly with Facebook, and supports sharing photos, videos, and live locations. Enhanced privacy options such as end-to-end encryption in secret conversations give users added control over their communication.\n\nMessenger continues to expand beyond chat, with business integrations, payment options in select regions, and customization tools for chat themes. It serves as a versatile and secure communication hub for billions of users worldwide.",
     "size": "65 MB",
     "reviews": "105M",
     "ratingAvg": 4.3,
     "downloads": "5B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 5000000
-      },
-      {
-        "name": "2 star",
-        "count": 3000000
-      },
-      {
-        "name": "3 star",
-        "count": 8000000
-      },
-      {
-        "name": "4 star",
-        "count": 20000000
-      },
-      {
-        "name": "5 star",
-        "count": 70000000
-      }
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 70000000 }
     ]
   },
   {
@@ -334,32 +184,17 @@
     "title": "Mint",
     "companyName": "Intuit Inc.",
     "id": 11,
-    "description": "Mint is a powerful and free **personal finance management application** that provides a comprehensive overview of your financial life. Users can securely link all their financial accounts, including bank accounts, credit cards, investment portfolios, and bills, to track their money in one centralized place. The app automatically **categorizes transactions**, helping users understand where their money is going, and allows for the creation of customized, detailed **budgets** with real-time tracking. It proactively sends **alerts for upcoming bills** and potential overspending. Mint offers valuable financial insights, recommendations to save money, and a feature to track your **credit score for free**. It serves as an essential tool for individuals aiming to gain financial control, set savings goals, and plan for their future.",
+    "description": "Mint is a comprehensive and free personal finance management application that provides users with a clear, organized view of their entire financial life. It allows secure linking of bank accounts, credit cards, loans, and investments, consolidating all transactions into one intuitive dashboard.\n\nThe app automatically categorizes spending, helping users understand where their money goes and how to optimize their budgets. Mint’s budgeting tools enable the creation of personalized plans with real-time tracking, ensuring users stay on top of their goals. It also sends proactive alerts for upcoming bills, due dates, and potential overspending.\n\nIn addition, Mint provides valuable financial insights, tips to save money, and even offers a free credit score tracking feature. With its smart automation and clear analytics, Mint empowers individuals to gain financial control, set savings targets, and plan confidently for the future.",
     "size": "61 MB",
     "reviews": "3.6M",
     "ratingAvg": 4.5,
     "downloads": "50M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 100000
-      },
-      {
-        "name": "2 star",
-        "count": 90000
-      },
-      {
-        "name": "3 star",
-        "count": 300000
-      },
-      {
-        "name": "4 star",
-        "count": 800000
-      },
-      {
-        "name": "5 star",
-        "count": 2300000
-      }
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2300000 }
     ]
   },
   {
@@ -367,32 +202,17 @@
     "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 12,
-    "description": "Duolingo is the world's most popular **language-learning platform**, renowned for its engaging, **gamified approach** to education. It offers courses in over 30 languages, breaking down complex language acquisition into **bite-sized, interactive lessons** that feel more like a game than a classroom lecture. The curriculum is designed to improve a user's **speaking, listening, reading, and writing skills** through quizzes, flashcards, and challenges. The app motivates learners through **streaks, leaderboards, and virtual rewards**, fostering consistency and competition. Advanced features include **Duolingo Stories and Podcasts** for real-world context and comprehension practice. It provides a personalized learning path, adapting to the user's progress and ensuring that Duolingo remains an accessible and effective solution for anyone from an absolute beginner to an advanced polyglot.",
+    "description": "Duolingo is the world’s most popular language-learning platform, known for its engaging, gamified approach that makes mastering new languages fun and effective. It offers over 30 languages and breaks lessons into quick, interactive exercises focused on real communication.\n\nUsers improve speaking, listening, reading, and writing through mini-games, flashcards, and challenges designed for consistent daily practice. Motivational elements like streaks, leaderboards, and virtual rewards keep learners engaged while tracking progress.\n\nDuolingo also includes features like Stories and Podcasts for real-world context and comprehension. Its adaptive learning engine tailors difficulty based on user performance, ensuring a personalized experience for both beginners and advanced learners seeking to build or refine language fluency.",
     "size": "48 MB",
     "reviews": "16M",
     "ratingAvg": 4.7,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 200000
-      },
-      {
-        "name": "2 star",
-        "count": 150000
-      },
-      {
-        "name": "3 star",
-        "count": 600000
-      },
-      {
-        "name": "4 star",
-        "count": 2400000
-      },
-      {
-        "name": "5 star",
-        "count": 12600000
-      }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 12600000 }
     ]
   },
   {
@@ -400,32 +220,17 @@
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 13,
-    "description": "Netflix is the dominant global **subscription-based streaming service** offering an enormous, constantly refreshed library of movies, TV series, documentaries, and critically acclaimed **Netflix Originals**. The platform's powerful algorithm drives **personalized recommendations**, ensuring users effortlessly discover new content based on their viewing history and preferences. Subscribers can enjoy high-definition and 4K streaming quality and have the ability to **download content for offline viewing** on mobile devices. Features like parental controls, support for multiple user profiles, and accessibility options make it suitable for every member of the household. Netflix continually invests in diverse, exclusive productions from around the world, solidifying its position as the premier destination for entertainment lovers seeking convenience, high-quality production, and variety within a seamless, intuitive interface.",
+    "description": "Netflix is the world’s leading subscription-based streaming platform, offering an extensive and constantly updated library of movies, TV shows, documentaries, and original productions. Its sleek interface and smart algorithm ensure effortless content discovery tailored to user preferences.\n\nSubscribers enjoy high-quality streaming in HD and 4K, along with options to download content for offline viewing. Netflix supports multiple profiles, enabling personalized recommendations and parental controls to ensure a family-friendly experience.\n\nWith its vast selection of exclusive and global productions, Netflix has redefined entertainment consumption. It provides a seamless experience across devices, delivering variety, quality, and convenience for viewers worldwide.",
     "size": "102 MB",
     "reviews": "13.8M",
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 400000
-      },
-      {
-        "name": "2 star",
-        "count": 350000
-      },
-      {
-        "name": "3 star",
-        "count": 1100000
-      },
-      {
-        "name": "4 star",
-        "count": 2500000
-      },
-      {
-        "name": "5 star",
-        "count": 9500000
-      }
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 9500000 }
     ]
   },
   {
@@ -433,32 +238,17 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 14,
-    "description": "YouTube is the world's largest and most influential **video-sharing platform**, serving as the primary source for entertainment, education, and news for billions of users. The platform allows users to freely **watch, upload, and share** a virtually limitless array of video content, including music videos, movies, vlogs, live streams, and instructional tutorials. Users can follow their favorite content creators through **Subscriptions** and engage with the community via comments, likes, and shares. The YouTube algorithm provides highly **personalized recommendations** to bring trending and relevant content to the user's feed. **YouTube Premium** offers benefits like ad-free playback, offline downloads, and background play. It's a comprehensive ecosystem that not only entertains but also provides creators with tools for monetization, performance analytics, and effective audience management.",
+    "description": "YouTube is the world’s largest video-sharing platform and a cornerstone of digital culture, enabling users to discover, watch, and share videos on virtually any topic imaginable. From music and movies to tutorials and vlogs, it caters to audiences of every interest.\n\nUsers can subscribe to channels, like and comment on videos, and receive tailored recommendations based on viewing history. The platform’s algorithm curates trending and relevant content for each user’s personalized feed, creating an endless stream of engaging media.\n\nWith features like YouTube Premium for ad-free viewing and offline playback, as well as monetization tools for creators, YouTube has evolved into a vast ecosystem that empowers both viewers and content creators around the globe.",
     "size": "66 MB",
     "reviews": "155M",
     "ratingAvg": 4.4,
     "downloads": "10B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 8500000
-      },
-      {
-        "name": "2 star",
-        "count": 5000000
-      },
-      {
-        "name": "3 star",
-        "count": 9500000
-      },
-      {
-        "name": "4 star",
-        "count": 29000000
-      },
-      {
-        "name": "5 star",
-        "count": 103000000
-      }
+      { "name": "1 star", "count": 8500000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9500000 },
+      { "name": "4 star", "count": 29000000 },
+      { "name": "5 star", "count": 103000000 }
     ]
   },
   {
@@ -466,32 +256,17 @@
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 15,
-    "description": "Telegram is a cloud-based mobile and desktop messaging application celebrated for its emphasis on **speed, security, and privacy**. Unlike many competitors, Telegram offers massive scalability, supporting group chats with up to thousands of members and **Channels** for broadcasting to unlimited audiences. Users can send and receive texts, photos, videos, and files of any type up to 2GB in size. Its security features are robust, including optional **Secret Chats** with end-to-end encryption and self-destructing messages. The platform is truly **cross-device**, allowing users to start a conversation on one device and seamlessly continue it on another, thanks to its cloud synchronization. Advanced tools like integrated **bots** for automation, polls, and quizzes make Telegram a versatile platform for personal, community, and business communication.",
+    "description": "Telegram is a fast, secure, and cloud-based messaging application that prioritizes privacy and performance. It supports syncing across all devices, allowing users to start a chat on one device and continue seamlessly on another.\n\nThe app enables sending of messages, media, documents, and files up to 2GB in size. Users can create large group chats, public channels, and even use bots for automation and entertainment. Secret Chats offer end-to-end encryption with self-destruct timers for added privacy.\n\nTelegram’s focus on speed, security, and openness makes it a favorite among individuals and organizations seeking reliable communication without compromising on features or user experience.",
     "size": "61 MB",
     "reviews": "14.5M",
     "ratingAvg": 4.6,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 300000
-      },
-      {
-        "name": "2 star",
-        "count": 200000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 2300000
-      },
-      {
-        "name": "5 star",
-        "count": 10800000
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "5 star", "count": 10800000 }
     ]
   },
   {
@@ -499,32 +274,17 @@
     "title": "CapCut",
     "companyName": "Bytedance Pte. Ltd.",
     "id": 16,
-    "description": "CapCut is a highly popular and professional-grade **video editing application** optimized for creating short-form video content, particularly for social media platforms like TikTok and Instagram Reels. The app is powerful yet user-friendly, offering an extensive range of **editing tools** for cutting, merging, and adjusting video clips. Its feature set includes a massive library of **filters, transitions, music, and sound effects**. CapCut leverages **AI-powered tools** for advanced functionality, such as automatic captioning, background removal using chroma key, and dynamic special effects. It supports exporting videos in high quality and various aspect ratios to suit different platforms. With constant updates adding new templates and trending effects, CapCut is an essential, comprehensive, and free editing suite for both amateur and professional video creators aiming for polished, viral content.",
+    "description": "CapCut is a powerful and user-friendly video editing application designed for both amateur and professional creators. It offers a comprehensive range of editing tools for cutting, merging, and refining videos effortlessly.\n\nThe app includes an extensive library of filters, effects, transitions, and soundtracks, along with advanced AI-powered features such as auto-captions, background removal, and facial enhancements. Users can create polished, high-quality videos optimized for social media platforms like TikTok and Instagram.\n\nWith frequent updates introducing new templates and trends, CapCut has become an essential tool for modern creators looking to produce visually captivating content with ease and precision.",
     "size": "151 MB",
     "reviews": "13.8M",
     "ratingAvg": 4.5,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 500000
-      },
-      {
-        "name": "2 star",
-        "count": 400000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 2800000
-      },
-      {
-        "name": "5 star",
-        "count": 9200000
-      }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 9200000 }
     ]
   },
   {
@@ -532,32 +292,17 @@
     "title": "Google Photos",
     "companyName": "Google LLC",
     "id": 17,
-    "description": "Google Photos is a primary application for **cloud-based photo and video storage and organization**, ensuring memories are safely backed up and easily accessible across all devices. The app's standout feature is its powerful **AI-driven organization**, which allows users to search their media not just by date, but also by people, places, and objects within the photos, often without manual tagging. It automatically creates delightful **animations, collages, and highlight reels** of past events and trips. The platform provides intuitive **editing tools and filters** to enhance images. It excels at sharing, allowing users to quickly share large albums with friends and family. Furthermore, with secure integration with Google Drive and other services, Google Photos offers a seamless, intelligent, and private way to manage an ever-growing digital photo collection.",
+    "description": "Google Photos is a smart, cloud-based photo and video storage platform that automatically backs up your memories and organizes them intelligently. It provides seamless access to your media from any device connected to your Google account.\n\nThe app uses advanced AI to categorize photos based on faces, places, and objects, allowing intuitive search and effortless navigation. It also creates automatic collages, animations, and highlight reels to relive your favorite moments.\n\nWith editing tools, sharing features, and integration with other Google services, Google Photos ensures your images remain secure, accessible, and beautifully presented in one convenient location.",
     "size": "94 MB",
     "reviews": "12.5M",
     "ratingAvg": 4.6,
     "downloads": "5B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 300000
-      },
-      {
-        "name": "2 star",
-        "count": 200000
-      },
-      {
-        "name": "3 star",
-        "count": 800000
-      },
-      {
-        "name": "4 star",
-        "count": 2000000
-      },
-      {
-        "name": "5 star",
-        "count": 9300000
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 9300000 }
     ]
   },
   {
@@ -565,32 +310,17 @@
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 18,
-    "description": "Zoom is a leading **video conferencing and unified communications platform** that has become the global standard for virtual meetings, webinars, and online events in business and education. It delivers consistently high-definition **video and audio quality** with low latency. Core features include one-click meeting scheduling, seamless **screen sharing**, and the ability to record sessions. For larger groups, it offers advanced tools like **Breakout Rooms** for small-group discussions and robust Q&A features for webinars. Zoom prioritizes security with features like passcodes, waiting rooms, and encryption. It is highly versatile, accessible across mobile and desktop devices, and integrates with major calendar systems, making remote collaboration, learning, and personal communication efficient and easily manageable.",
+    "description": "Zoom is a leading platform for video conferencing and online communication, widely used for meetings, webinars, and virtual events. It provides crystal-clear audio and HD video quality, ensuring reliable connections across the globe.\n\nUsers can host or join meetings instantly, share screens, record sessions, and collaborate through chat and file sharing. For teams, Zoom offers advanced features such as breakout rooms, waiting rooms, and live Q&A tools.\n\nIts cross-platform accessibility, ease of use, and strong security measures have made Zoom an indispensable tool for businesses, educators, and individuals in today’s connected world.",
     "size": "102 MB",
     "reviews": "12.5M",
     "ratingAvg": 4.6,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 400000
-      },
-      {
-        "name": "2 star",
-        "count": 250000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 2800000
-      },
-      {
-        "name": "5 star",
-        "count": 8300000
-      }
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 8300000 }
     ]
   },
   {
@@ -598,32 +328,17 @@
     "title": "Amazon Prime Video",
     "companyName": "Amazon Mobile LLC",
     "id": 19,
-    "description": "Amazon Prime Video is a widely-used **video streaming service** included as a benefit for Amazon Prime subscribers, offering a diverse catalog of movies, TV shows, and exclusive, award-winning **Amazon Originals**. Users can stream content in high definition, with many titles available in 4K resolution. The platform’s features include the ability to **download content for offline viewing**, offering flexibility for travelers. A unique feature is **X-Ray**, powered by IMDb, which provides trivia, cast information, soundtrack details, and more as a show plays. The service supports multiple user profiles and robust **parental controls**. With seamless integration across various devices, including Amazon Fire TV and Alexa, Prime Video provides a comprehensive and constantly growing library of premium entertainment.",
+    "description": "Amazon Prime Video is a premium streaming service included with Amazon Prime, offering a vast collection of movies, TV shows, and exclusive Amazon Originals. It supports HD and 4K streaming across all major devices.\n\nUsers can download videos for offline viewing, enjoy multi-profile support, and use the X-Ray feature powered by IMDb to learn more about cast members, trivia, and soundtracks. Parental controls ensure a safe viewing environment for families.\n\nWith seamless integration with Amazon devices and Alexa, Prime Video provides high-quality entertainment with convenience and variety for global audiences.",
     "size": "122 MB",
     "reviews": "7.1M",
     "ratingAvg": 4.4,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 300000
-      },
-      {
-        "name": "2 star",
-        "count": 250000
-      },
-      {
-        "name": "3 star",
-        "count": 800000
-      },
-      {
-        "name": "4 star",
-        "count": 1800000
-      },
-      {
-        "name": "5 star",
-        "count": 3950000
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 3950000 }
     ]
   },
   {
@@ -631,32 +346,17 @@
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 20,
-    "description": "TikTok is a dominant global **short-form video platform** that has fundamentally reshaped social media consumption. Its core experience is the **'For You' page (FYP)**, an infinitely scrolling feed powered by a highly sophisticated AI algorithm that delivers personalized video content to users. The app makes content creation accessible and fun, offering a vast array of **editing tools, filters, visual effects, and a massive music library**. Users create and share videos on everything from comedic sketches and dances to educational tutorials and lifestyle content, often participating in viral **challenges and trends**. Key features include Duets and Stitches, which encourage user collaboration and content reaction. With private messaging, live streaming capabilities, and robust moderation, TikTok fosters a dynamic, high-engagement, and rapidly evolving social culture.",
+    "description": "TikTok is a global short-form video platform that redefines how people create, share, and discover content. Its AI-driven 'For You' feed delivers endlessly personalized videos that capture attention within seconds.\n\nCreators have access to a full suite of editing tools, effects, and an expansive music library, making it easy to produce engaging and viral clips. Features like Duets, Stitches, and live streaming encourage collaboration and interaction between users.\n\nWith its focus on creativity, trends, and authenticity, TikTok has become a cultural phenomenon, inspiring millions worldwide and shaping the future of social media engagement.",
     "size": "126 MB",
     "reviews": "138M",
     "ratingAvg": 4.3,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 10000000
-      },
-      {
-        "name": "2 star",
-        "count": 7000000
-      },
-      {
-        "name": "3 star",
-        "count": 12000000
-      },
-      {
-        "name": "4 star",
-        "count": 27000000
-      },
-      {
-        "name": "5 star",
-        "count": 82000000
-      }
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 27000000 },
+      { "name": "5 star", "count": 82000000 }
     ]
   },
   {
@@ -664,32 +364,17 @@
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 21,
-    "description": "Facebook is the foundational and world's largest **social networking platform**, connecting billions of users for personal, social, and commercial interactions. It allows users to create detailed profiles, share **updates, photos, videos, and links** on a personalized **News Feed**, and stay in touch with friends and family globally. Beyond personal sharing, users can join communities through **Groups**, follow public figures and brands via Pages, and manage social gatherings using **Events**. The platform features the **Facebook Marketplace** for local buying and selling, and is deeply integrated with Messenger for instant communication. Facebook’s extensive features and algorithmic feeds create a pervasive digital social hub, offering tools for self-expression, community building, information discovery, and commercial activity, all while maintaining security and privacy controls for users.",
+    "description": "Facebook is the foundational and world's largest social networking platform, connecting billions of users for personal, social, and commercial interactions. It allows users to create detailed profiles, share updates, photos, videos, and links on a personalized News Feed, and stay in touch with friends and family globally.\n\nBeyond personal sharing, users can join communities through Groups, follow public figures and brands via Pages, and manage social gatherings using Events. The platform features the Facebook Marketplace for local buying and selling, and is deeply integrated with Messenger for instant communication.\n\nFacebook’s extensive features and algorithmic feeds create a pervasive digital social hub, offering tools for self-expression, community building, information discovery, and commercial activity, all while maintaining security and privacy controls for users.",
     "size": "91 MB",
     "reviews": "131M",
     "ratingAvg": 4.2,
     "downloads": "5B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 13000000
-      },
-      {
-        "name": "2 star",
-        "count": 8000000
-      },
-      {
-        "name": "3 star",
-        "count": 11000000
-      },
-      {
-        "name": "4 star",
-        "count": 25000000
-      },
-      {
-        "name": "5 star",
-        "count": 74000000
-      }
+      { "name": "1 star", "count": 13000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 11000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 74000000 }
     ]
   },
   {
@@ -697,32 +382,17 @@
     "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 22,
-    "description": "Uber is the world's most recognized **ride-hailing and transportation app**, fundamentally changing urban mobility. It connects riders seeking transportation with nearby registered drivers through a seamless mobile interface. Users can easily request a ride, specify pickup and drop-off locations, and choose from various service tiers (e.g., budget, premium, or shared rides). Key features include **real-time GPS tracking** of the driver's location, transparent dynamic pricing, and fully integrated in-app payments. The platform prioritizes safety with features like driver background checks, the ability to **share your trip status** with trusted contacts, and an in-app emergency button. Beyond personal travel, Uber has expanded into services like **Uber Eats** for food delivery and Uber Freight, making it a comprehensive global logistics and mobility provider.",
+    "description": "Uber is the world's most recognized ride-hailing and transportation app, fundamentally changing urban mobility. It connects riders seeking transportation with nearby registered drivers through a seamless mobile interface.\n\nUsers can easily request a ride, specify pickup and drop-off locations, and choose from various service tiers (e.g., budget, premium, or shared rides). Key features include real-time GPS tracking, transparent dynamic pricing, and fully integrated in-app payments.\n\nThe platform prioritizes safety with features like driver background checks, trip sharing with trusted contacts, and an in-app emergency button. Beyond personal travel, Uber has expanded into Uber Eats and Uber Freight, making it a comprehensive global mobility provider.",
     "size": "92 MB",
     "reviews": "12M",
     "ratingAvg": 4.3,
     "downloads": "1B",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 500000
-      },
-      {
-        "name": "2 star",
-        "count": 350000
-      },
-      {
-        "name": "3 star",
-        "count": 1200000
-      },
-      {
-        "name": "4 star",
-        "count": 2800000
-      },
-      {
-        "name": "5 star",
-        "count": 6900000
-      }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 6900000 }
     ]
   },
   {
@@ -730,32 +400,17 @@
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 23,
-    "description": "Discord is a popular **community and VoIP platform** initially designed for gamers, but now widely used by communities, creators, and professionals for organized communication. It is structured around **Servers**, which are user-created spaces divided into **voice and text channels** for different topics. Users can chat, share media, and engage in high-quality **voice communication and screen sharing** with minimal latency. The platform offers powerful server management tools, including advanced moderation controls, custom roles and permissions, and integration with specialized bots to enhance engagement and functionality. Discord's ability to host large, structured communities with features for both synchronous (voice/video) and asynchronous (text) communication makes it a unique and versatile space for online interaction.",
+    "description": "Discord is a popular community and VoIP platform initially designed for gamers, but now widely used by communities, creators, and professionals for organized communication. It is structured around Servers, which are user-created spaces divided into voice and text channels for different topics.\n\nUsers can chat, share media, and engage in high-quality voice communication and screen sharing with minimal latency. The platform offers powerful server management tools, including advanced moderation controls, custom roles and permissions, and integration with specialized bots to enhance engagement and functionality.\n\nDiscord's ability to host large, structured communities with features for both synchronous (voice/video) and asynchronous (text) communication makes it a unique and versatile space for online interaction.",
     "size": "87 MB",
     "reviews": "8.7M",
     "ratingAvg": 4.5,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 300000
-      },
-      {
-        "name": "2 star",
-        "count": 250000
-      },
-      {
-        "name": "3 star",
-        "count": 700000
-      },
-      {
-        "name": "4 star",
-        "count": 1600000
-      },
-      {
-        "name": "5 star",
-        "count": 5850000
-      }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 5850000 }
     ]
   },
   {
@@ -763,32 +418,17 @@
     "title": "Airbnb",
     "companyName": "Airbnb, Inc.",
     "id": 24,
-    "description": "Airbnb is a leading global platform that allows users to discover and book **unique accommodations and travel experiences** worldwide. It facilitates peer-to-peer short-term rentals, connecting travelers with hosts offering everything from apartments and houses to unique stays like treehouses and castles. Travelers can browse listings with detailed photos, host verification, and comprehensive **reviews and ratings**. The platform also features **Airbnb Experiences**, enabling users to book local tours, workshops, and activities led by expert hosts. Core features include secure in-app payments, a robust messaging system for direct communication with hosts, and flexible search filters to tailor bookings. Airbnb has redefined travel by offering personalized, authentic, and memorable ways to explore destinations.",
+    "description": "Airbnb is a leading global platform that allows users to discover and book unique accommodations and travel experiences worldwide. It facilitates peer-to-peer short-term rentals, connecting travelers with hosts offering everything from apartments and houses to unique stays like treehouses and castles.\n\nTravelers can browse listings with detailed photos, host verification, and comprehensive reviews and ratings. The platform also features Airbnb Experiences, enabling users to book local tours, workshops, and activities led by expert hosts.\n\nCore features include secure in-app payments, a robust messaging system for direct communication with hosts, and flexible search filters to tailor bookings. Airbnb has redefined travel by offering personalized, authentic, and memorable ways to explore destinations.",
     "size": "85 MB",
     "reviews": "5.9M",
     "ratingAvg": 4.5,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 200000
-      },
-      {
-        "name": "2 star",
-        "count": 160000
-      },
-      {
-        "name": "3 star",
-        "count": 500000
-      },
-      {
-        "name": "4 star",
-        "count": 1400000
-      },
-      {
-        "name": "5 star",
-        "count": 3640000
-      }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 3640000 }
     ]
   },
   {
@@ -796,32 +436,17 @@
     "title": "Evernote",
     "companyName": "Evernote Corporation",
     "id": 25,
-    "description": "Evernote is a versatile and comprehensive **productivity and note-taking application** designed to capture, organize, and manage information efficiently across all your devices. Users can create a variety of **Notes**, including text, handwritten input, sketches, audio recordings, and attached files, and organize them into **Notebooks** and with **Tags** for easy retrieval. A key feature is its powerful search, capable of finding text even inside images and PDFs. The app is ideal for research, project planning, and task management, offering features like to-do lists, reminders, and templates. Evernote supports collaboration, allowing users to share and work on notes together. Its seamless synchronization ensures that ideas, tasks, and information captured on one device are instantly accessible on any other, making it a critical tool for streamlining personal and professional workflows.",
+    "description": "Evernote is a versatile and comprehensive productivity and note-taking application designed to capture, organize, and manage information efficiently across all your devices. Users can create a variety of notes, including text, handwritten input, sketches, audio recordings, and attached files.\n\nNotes are organized into Notebooks and tagged for easy retrieval. A key feature is its powerful search, capable of finding text even inside images and PDFs. The app is ideal for research, project planning, and task management, offering features like to-do lists, reminders, and templates.\n\nEvernote supports collaboration, allowing users to share and work on notes together. Its seamless synchronization ensures that ideas, tasks, and information captured on one device are instantly accessible on any other, making it a critical tool for streamlining personal and professional workflows.",
     "size": "92 MB",
     "reviews": "4.2M",
     "ratingAvg": 4.4,
     "downloads": "100M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 200000
-      },
-      {
-        "name": "2 star",
-        "count": 150000
-      },
-      {
-        "name": "3 star",
-        "count": 400000
-      },
-      {
-        "name": "4 star",
-        "count": 900000
-      },
-      {
-        "name": "5 star",
-        "count": 2550000
-      }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2550000 }
     ]
   },
   {
@@ -829,32 +454,17 @@
     "title": "Headspace",
     "companyName": "Headspace, Inc.",
     "id": 26,
-    "description": "Headspace is a leading **mindfulness and meditation application** dedicated to improving users' mental health, focus, and sleep quality. The app provides a vast library of audio-guided sessions covering everything from basic meditation techniques to advanced mindfulness practices for specific issues like anxiety, stress management, and personal growth. It includes structured **meditation courses** tailored for beginners and experienced practitioners, along with various **sleep sounds, sleepcasts (audio bedtime stories), and wind-down exercises** to aid restful sleep. Headspace also features **mindfulness exercises for physical activity** and corporate wellness programs. By offering a clean, simple interface and tracking user progress, Headspace effectively demystifies meditation and makes its benefits accessible to anyone seeking to build a daily practice for a healthier mind.",
+    "description": "Headspace is a leading mindfulness and meditation application dedicated to improving users' mental health, focus, and sleep quality. The app provides a vast library of audio-guided sessions covering everything from basic meditation techniques to advanced mindfulness practices for specific issues like anxiety and stress.\n\nIt includes structured meditation courses for beginners and experienced practitioners, along with various sleep sounds, sleepcasts (audio bedtime stories), and wind-down exercises to aid restful sleep. Headspace also features mindfulness exercises for physical activity and corporate wellness programs.\n\nBy offering a clean, simple interface and tracking user progress, Headspace effectively demystifies meditation and makes its benefits accessible to anyone seeking to build a daily practice for a healthier mind.",
     "size": "98 MB",
     "reviews": "3.2M",
     "ratingAvg": 4.7,
     "downloads": "50M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 120000
-      },
-      {
-        "name": "2 star",
-        "count": 90000
-      },
-      {
-        "name": "3 star",
-        "count": 250000
-      },
-      {
-        "name": "4 star",
-        "count": 800000
-      },
-      {
-        "name": "5 star",
-        "count": 1970000
-      }
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1970000 }
     ]
   },
   {
@@ -862,32 +472,17 @@
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 27,
-    "description": "Google Maps is the world's most dominant and comprehensive **navigation and geospatial application**, providing users with detailed maps, real-time GPS-guided navigation, and location-based services. It offers multi-modal routing for driving, walking, cycling, and public transit, constantly updating for **real-time traffic conditions, accidents, and route changes**. Users can easily search for millions of businesses, restaurants, and points of interest, complete with crowd-sourced **ratings, reviews, and detailed information**. Key features include **Street View** for 360-degree imagery, **Offline Maps** for navigation without connectivity, and personalized recommendations. Google Maps is an indispensable tool for travelers and daily commuters, simplifying exploration and making navigating the globe reliable and efficient.",
+    "description": "Google Maps is the world's most dominant and comprehensive navigation and geospatial application, providing users with detailed maps, real-time GPS-guided navigation, and location-based services. It offers multi-modal routing for driving, walking, cycling, and public transit.\n\nIt constantly updates for real-time traffic conditions, accidents, and route changes. Users can easily search for millions of businesses, restaurants, and points of interest, complete with crowd-sourced ratings, reviews, and detailed information.\n\nKey features include Street View for 360-degree imagery, Offline Maps for navigation without connectivity, and personalized recommendations. Google Maps is an indispensable tool for travelers and commuters alike.",
     "size": "96 MB",
     "reviews": "17.8M",
     "ratingAvg": 4.6,
     "downloads": "10B+",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 400000
-      },
-      {
-        "name": "2 star",
-        "count": 300000
-      },
-      {
-        "name": "3 star",
-        "count": 1200000
-      },
-      {
-        "name": "4 star",
-        "count": 3100000
-      },
-      {
-        "name": "5 star",
-        "count": 13000000
-      }
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3100000 },
+      { "name": "5 star", "count": 13000000 }
     ]
   },
   {
@@ -895,32 +490,17 @@
     "title": "Audible",
     "companyName": "Audible, Inc.",
     "id": 28,
-    "description": "Audible is the premier **subscription service for audiobooks and spoken-word entertainment**, offering an unparalleled library of millions of titles. Users can access a massive collection of best-selling novels, classics, exclusive Audible Originals, and a growing selection of podcasts. The app is highly optimized for listening on the go, allowing users to **download titles for offline playback** and offering features like adjustable narration speed, chapter navigation, and bookmarks. Its unique **'Car Mode'** provides a distraction-free interface for driving. Audible integrates seamlessly with Amazon/Alexa devices and offers personalized recommendations based on listening habits, solidifying its position as the go-to platform for literature enthusiasts and busy individuals who prefer to consume content through the power of voice.",
+    "description": "Audible is the premier subscription service for audiobooks and spoken-word entertainment, offering an unparalleled library of millions of titles. Users can access a massive collection of best-selling novels, classics, exclusive Audible Originals, and podcasts.\n\nThe app is highly optimized for listening on the go, allowing users to download titles for offline playback and offering features like adjustable narration speed, chapter navigation, and bookmarks. Its unique Car Mode provides a distraction-free interface for driving.\n\nAudible integrates seamlessly with Amazon and Alexa devices, offering personalized recommendations and a growing library for literature lovers and audio enthusiasts.",
     "size": "105 MB",
     "reviews": "7.5M",
     "ratingAvg": 4.7,
     "downloads": "100M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 150000
-      },
-      {
-        "name": "2 star",
-        "count": 100000
-      },
-      {
-        "name": "3 star",
-        "count": 400000
-      },
-      {
-        "name": "4 star",
-        "count": 1200000
-      },
-      {
-        "name": "5 star",
-        "count": 5650000
-      }
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 5650000 }
     ]
   },
   {
@@ -928,32 +508,17 @@
     "title": "Angry Birds 2",
     "companyName": "Rovio Entertainment",
     "id": 29,
-    "description": "Angry Birds 2 is the globally popular sequel to the original physics-based puzzle game, maintaining the core gameplay of using a **slingshot to launch birds** with unique abilities at structures to defeat the nefarious pigs. This iteration introduces more depth with **multi-stage levels**, strategic card selection for launching birds, and interactive environments that respond to the action. Players can join clans to compete in **weekly tournaments and challenges**, collect valuable rewards, and unlock powerful spells and power-ups. With vibrant 3D graphics, charismatic characters, and continuous updates that introduce new birds, levels, and seasonal events, Angry Birds 2 provides an engaging and strategic experience that appeals to both casual mobile gamers and dedicated puzzle enthusiasts.",
+    "description": "Angry Birds 2 is the globally popular sequel to the original physics-based puzzle game, maintaining the core gameplay of using a slingshot to launch birds with unique abilities at structures to defeat the pigs.\n\nThis version adds multi-stage levels, strategic card selection for launching birds, and interactive environments that respond to the action. Players can join clans to compete in tournaments and challenges, collect rewards, and unlock power-ups.\n\nWith vibrant 3D graphics, charismatic characters, and continuous updates introducing new birds and seasonal events, Angry Birds 2 provides an engaging and strategic puzzle experience.",
     "size": "129 MB",
     "reviews": "6.2M",
     "ratingAvg": 4.4,
     "downloads": "500M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 250000
-      },
-      {
-        "name": "2 star",
-        "count": 180000
-      },
-      {
-        "name": "3 star",
-        "count": 500000
-      },
-      {
-        "name": "4 star",
-        "count": 1300000
-      },
-      {
-        "name": "5 star",
-        "count": 3920000
-      }
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 3920000 }
     ]
   },
   {
@@ -961,32 +526,17 @@
     "title": "Fitbit",
     "companyName": "Fitbit, Inc.",
     "id": 30,
-    "description": "Fitbit is the essential companion application for Fitbit's line of **wearable health and fitness trackers**, acting as a central dashboard for all user health metrics. The app connects wirelessly to devices to track and monitor a wide range of data, including **daily steps, distance, calories burned, active zone minutes, sleep patterns, and heart rate**. Users can set personalized **fitness goals**, track their nutrition and hydration, and view their progress over time with detailed charts and insights. Fitbit offers guided wellness programs, mindfulness exercises, and challenges that allow users to compete with friends or family, fostering motivation and community. By providing comprehensive health data, personalized coaching, and seamless data synchronization, the Fitbit app empowers users to make informed decisions and maintain a healthier lifestyle.",
+    "description": "Fitbit is the essential companion application for Fitbit's line of wearable health and fitness trackers, acting as a central dashboard for all user health metrics. The app connects wirelessly to devices to track daily steps, distance, calories burned, and heart rate.\n\nUsers can set personalized fitness goals, track their nutrition and hydration, and view their progress over time with detailed charts and insights. Fitbit offers guided wellness programs, mindfulness exercises, and challenges that allow users to compete with friends or family.\n\nBy providing comprehensive health data, personalized coaching, and seamless data synchronization, the Fitbit app empowers users to make informed decisions and maintain a healthier lifestyle.",
     "size": "94 MB",
     "reviews": "8.9M",
     "ratingAvg": 4.3,
     "downloads": "100M",
     "ratings": [
-      {
-        "name": "1 star",
-        "count": 400000
-      },
-      {
-        "name": "2 star",
-        "count": 300000
-      },
-      {
-        "name": "3 star",
-        "count": 900000
-      },
-      {
-        "name": "4 star",
-        "count": 1900000
-      },
-      {
-        "name": "5 star",
-        "count": 5400000
-      }
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1900000 },
+      { "name": "5 star", "count": 5400000 }
     ]
   }
 ]

@@ -95,9 +95,9 @@ const AppDetails = () => {
           </div>
         </div>
         
-        <div className="space-y-2">
+        <div className="space-y-3">
           <h1 className="text-xl font-semibold">Description</h1>
-          <p className="text-sm text-gray-600 text-justify">{description}</p>
+          <pre className="text-sm text-wrap text-gray-600 text-justify">{description}</pre>
         </div>
       </div>
     </Container>
