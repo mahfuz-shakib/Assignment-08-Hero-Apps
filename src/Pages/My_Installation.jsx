@@ -34,13 +34,13 @@ const My_Installation = () => {
 
   return (
     <Container>
-      <div className="max-w-7xl mx-auto px-3 my-12 min-h-96">
-        <h1 className="text-4xl font-semibold text-center">Your Installed Apps</h1>
-        <p className="text-gray-500 text-center mt-5 mb-10">
-          Explore All Trending Apps on the Market developed by us.<br className="sm:hidden"></br> We code for Millions
+      <div className="max-w-7xl mx-auto px-3 my-9 sm:my-12 min-h-96">
+        <h1 className="text-3xl sm:text-4xl font-semibold text-center">Your Installed Apps</h1>
+        <p className="text-gray-500 text-center mt-5 mb-7 sm:mb-10 px-3">
+          Explore All Trending Apps on the Market developed by us. We code for Millions
         </p>
-        <div className="flex flex-col sm:flex-row space-y-4 sm:justify-between items-center">
-          <h1 className="text-2xl font-bold">({sortedApps.length}) Apps Found</h1>
+        <div className="flex flex-col-reverse sm:flex-row space-y-4 sm:justify-between items-center">
+          <h1 className="text-xl mt-5 sm:mt-0 sm:text-2xl font-bold">({sortedApps.length}) Apps Found</h1>
           <label htmlFor="" className="form-control w-48">
             <select
               className="select select-bordered h-10"
@@ -54,7 +54,7 @@ const My_Installation = () => {
           </label>
         </div>
 
-        <div className="mt-6 space-y-4">
+        <div className="mt-4 sm:mt-6 space-y-4">
           {loading ? (
             <Loading></Loading>
           ) : !sortedApps.length ? (
@@ -63,16 +63,16 @@ const My_Installation = () => {
             sortedApps.map((app) => (
               <div
                 key={app.id}
-                className="flex justify-between items-center bg-white p-4 rounded-lg border border-gray-300 shadow hover:bg-[#f6f9f2]"
+                className="sm:flex  justify-between items-center bg-white p-4 rounded-lg border border-gray-300 shadow hover:bg-[#f6f9f2]"
               >
-                <div className="flex items-cente gap-4">
+                <div className="flex flex-col sm:flex-row  sm:items-cente gap-4">
                   <img
                     className="size-15 mx-auto rounded-lg object-cover border-gray-100 "
                     src={app.image}
                     alt={app.title}
                   />
                   <div className="space-y-2.5">
-                    <h1 className="text-xl font-bold">{app.title}</h1>
+                    <h1 className="text-xl text-center sm:text-start font-bold">{app.title}</h1>
                     <div className="flex justify-between gap-6">
                       <div className=" text-green-400 flex items-center gap-1.5">
                         <img className="size-4" src={downloadIcon} alt="downloadIcon" />
@@ -88,12 +88,14 @@ const My_Installation = () => {
                     </div>
                   </div>
                 </div>
-                <button
+                <div className="text-center ">
+                  <button
                   onClick={() => handleUninstall(app)}
-                  className="btn w-fit bg-green-500 hover:bg-green-600 hover:scale-102 text-white"
+                  className="btn w-full sm:w-fit mx-auto mt-3 sm:mt-0 bg-green-800 sm:bg-green-500 hover:bg-green-600 hover:scale-102 text-white "
                 >
                   Uninstall
                 </button>
+                </div>
               </div>
             ))
           )}

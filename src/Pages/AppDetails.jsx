@@ -38,31 +38,31 @@ const AppDetails = () => {
   };
   return (
     <Container>
-      <div className="max-w-7xl mx-auto px-3 py-12 space-y-4 min-h-96">
-        <div className="flex flex-col sm:flex-row flex-start gap-5 sm:gap-10  items-center pb-6 border-b border-b-gray-300">
-          <img className="size-64 object-cover rounded " src={image} alt={title} />
+      <div className="max-w-7xl mx-auto px-3 py-10 sm:py-12 space-y-4 min-h-96">
+        <div className="flex flex-col space-y-2 sm:flex-row flex-start gap-5 sm:gap-10  items-center pb-6 border-b border-b-gray-300">
+          <img className=" size-42 sm:size-64 object-cover rounded " src={image} alt={title} />
           <div className="sm:h-64 sm:flex flex-col justify-between w-full">
-            <div className="space-y-3">
-              <h1 className="text-3xl font-bold">{title}</h1>
-              <p className="text-sm text-gray-500 pb-3 border-b border-b-gray-300">
+            <div className="space-y-3 text-center sm:text-start">
+              <h1 className="text-2xl sm:text-3xl font-bold">{title}</h1>
+              <p className="text-sm text-gray-500 pb-4 border-b border-b-gray-300">
                 Developed by <span className="text-gradient">{companyName}</span>
               </p>
             </div>
-            <div className=" flex flex-start gap-12">
-              <div className="space-y-2 ">
-                <img className="size-8" src={downloadIcon} alt="downloadIcon" />
-                <p>Downloads</p>
-                <h1 className="text-2xl font-bold">{downloads}</h1>
+            <div className=" flex flex-start my-6 sm:my-0 sm:gap-12">
+              <div className="w-1/3 sm:w-fit text-center sm:text-start space-y-3 sm:space-y-2 border-r border-gray-300 sm:border-none ">
+                <img className="size-7 mx-auto sm:mx-0 sm:size-8" src={downloadIcon} alt="downloadIcon" />
+                <p>Total Downloads</p>
+                <h1 className="text-xl sm:text-2xl font-bold">{downloads}</h1>
               </div>
-              <div className="space-y-2 ">
-                <img className="size-8" src={ratingIcon} alt="ratingIcon" />
+              <div className="w-1/3 px-4 sm:w-fit text-center sm:text-start space-y-3 sm:space-y-2 border-r border-gray-300 sm:border-none ">
+                <img className="size-7 mx-auto sm:mx-0 sm:size-8" src={ratingIcon} alt="ratingIcon" />
                 <p>Average Ratings</p>
-                <h1 className="text-2xl font-bold">{ratingAvg}</h1>
+                <h1 className="text-xl sm:text-2xl font-bold">{ratingAvg}</h1>
               </div>
-              <div className="space-y-2 ">
-                <img className="size-8" src={reviewIcon} alt="reviewIcon" />
+              <div className="w-1/3 px-4 sm:w-fit text-center sm:text-start space-y-3 sm:space-y-2 ">
+                <img className="size-7 mx-auto sm:mx-0 sm:size-8" src={reviewIcon} alt="reviewIcon" />
                 <p>Total Reviews</p>
-                <h1 className="text-2xl font-bold">{reviews}</h1>
+                <h1 className="text-xl sm:text-2xl font-bold">{reviews}</h1>
               </div>
             </div>
             <button
@@ -94,6 +94,7 @@ const AppDetails = () => {
             </ResponsiveContainer>
           </div>
         </div>
+        
         <div className="space-y-2">
           <h1 className="text-xl font-semibold">Description</h1>
           <p className="text-sm text-gray-600 text-justify">{description}</p>
